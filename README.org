@@ -1,0 +1,4 @@
+* UNO game
+  Written by Mars Cheng
+  Just for fun. Well, I'm learning Ruby and BDD. I guess it's a good way to learn by doing practical stuff.
+

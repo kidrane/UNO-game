@@ -17,7 +17,7 @@ describe Card do
 
   it "应该判别牌的合法性" do
     valid_card = Card.new :color => :red, :type => 9
-    invalid_card = Card.new :color => :white, type => :ten
+    invalid_card = Card.new :color => :white, :type => :ten
     valid_card.valid?.should == true
     invalid_card.valid?.should == false
   end

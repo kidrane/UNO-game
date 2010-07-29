@@ -16,6 +16,7 @@ class Player
   end
 
   def fetch number = 1
+    card = nil
     number.times do
       card = @deck.fetch
       @cards << card

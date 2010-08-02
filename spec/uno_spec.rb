@@ -34,7 +34,7 @@ describe Uno do
   it "should get current player" do
     @uno.add_player "Player One"
     @uno.add_player "Player Two"
-    @uno.current_player.should == @uno.players.first
+    @uno.current_player.player_name.should == "Player One"
   end
 
   it "should list valid actions" do
